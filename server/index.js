@@ -4,8 +4,10 @@ const cors = require("cors");
 
 const app = express();
 
-
 //Middleware
+
+app.use(express.static('public'))
+
 let demoLogger = (req, res, next) => {
     let current_datetime = new Date();
     let formatted_date =
@@ -28,11 +30,7 @@ let demoLogger = (req, res, next) => {
     next();
   };
   
-  let imageLogger=(req,res,next)=>{
-
-
-
-  };
+  
 
   app.use(demoLogger);
 
