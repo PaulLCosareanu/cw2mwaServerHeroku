@@ -1,2 +1,2 @@
 # cw2mwaServerHeroku
-Coursework 2 Mobile Web Applications, Server code deployed to Heroku
+Coursework 2 Mobile Web Applications, simple server code deployed to Heroku
